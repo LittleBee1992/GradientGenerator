@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+ 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css" />
+  <title>BackgroundColor Generator</title>
+</head>
+
+<body>
+
+  <nav class="nav">
+    <div class="nav-box">
+      <button class="nav-menu-btn">
+        <span class="nav-btn-box">
+          <span class="nav-btn-inner"></span>
+        </span>
+      </button>
+      <div class="nav-mobile-menu">
+        <div class="nav-mobile-menu-box">
+          <ul>
+            <li><a href="../../index.html">2c-Generate</a>
+            </li>
+            <li><a href="./3color.html">3C-Generate</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="nav-links">
+        <ul>
+          <li>
+            <a href="../../index.html">Gradient Generator</a>
+
+          </li>
+          <li><a href="../../index.html">2c-Generate</a>
+          </li>
+          <li><a href="./3color.html">3C-Generate</a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-boxdate">
+        <span class="nav-time"></span>
+        <span class="nav-date"></span>
+      </div>
+    </div>
+  </nav>
+  <h1 class="generator-title">Generate a Css Color Gradient</h1>
+  <section class="generator">
+    <div class="generator-box">
+      <h3 class="generator-select-title">Choose orientation</h3>
+      <div class="generator-select">
+        <button class="btn right-top" value="to right top">
+          <i class="ti ti-arrow-up-right"></i>
+        </button>
+
+
+        <button class="btn right" value="to right">
+          <i class="ti ti-arrow-right"></i>
+        </button>
+
+
+        <button class="btn right-bottom" value="to right bottom">
+          <i class="ti ti-arrow-down-right"></i>
+        </button>
+
+
+        <button class="btn down" value="to bottom">
+          <i class="ti ti-arrow-down"></i>
+        </button>
+
+
+        <button class="btn left-bottom" value="to left bottom">
+          <i class="ti ti-arrow-down-left"></i>
+        </button>
+
+
+        <button class="btn left" value="to left">
+          <i class="ti ti-arrow-left"></i>
+        </button>
+
+
+        <button class="btn left-top" value="to left top">
+          <i class="ti ti-arrow-up-left"></i>
+        </button>
+
+
+        <button class="btn top" value="to top">
+          <i class="ti ti-arrow-up"></i>
+        </button>
+
+
+        <button class="btn reset" value="circle">
+          <i class="ti ti-reload"></i>
+        </button>
+      </div>
+
+      <!-- <p>Enter colors</p> -->
+      <div class="labels">
+        <div class="label">
+          <input type="text" id="hex1" value="#845ec2">
+        </div>
+        <div class="label">
+          <input type="text" id="hex2" value="#2bd58e">
+
+        </div>
+        <div class="label">
+          <input type="text" id="hex3" value="#2bd58e">
+
+        </div>
+      </div>
+      <button class="generate" type="submit">Generate</button>
+
+
+    </div>
+    <div class="gradient">
+      <span class="gradient-title">Css code:</span>
+      <div class="gradient-box">
+        <div class="copy-icon"><i class="ti ti-copy"></i></div>
+        <span class="gradient-info">background-image: linear-gradient(to right top, #000000, #532623, #975420, #bb9900,
+          #a8eb12);</span>
+      </div>
+    </div>
+  </section>
+  <script type="module" src="../js/app.js"></script>
+</body>
+
+</html>

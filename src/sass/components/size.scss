@@ -1,0 +1,13 @@
+:root{
+    --size--0-5rem: .5rem;
+    --size--0-25rem: .25rem;
+    --padding-horizontal--main: clamp(1rem, 0.714rem + 1.43vw, 2rem);
+    --size--4rem: clamp(2.5rem, 2.072rem + 2.14vw, 4rem);
+    --text-transform: uppercase;
+    --letter-spacing: .1em;
+    --line-height:1em;
+    --font-size:clamp(.625rem,2vw,1.1rem);
+    --font-size-1: 1rem;
+    --small-size:.7rem;
+    --font-family:"Smooch Sans", serif;
+}
