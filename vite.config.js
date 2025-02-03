@@ -6,7 +6,7 @@ import { sync } from 'glob'
 import { ViteImageOptimizer } from 'vite-plugin-image-optimizer'
 
 export default defineConfig( {
-	base:'/bgcgenerator/',
+	base:'/GradientGenerator/',
 	esbuild: {
 		jsxFactory: 'create',
 		jsxInject: `import {create} from './create'`,
