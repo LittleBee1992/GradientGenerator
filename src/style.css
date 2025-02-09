@@ -115,7 +115,8 @@ body {
 	justify-content: center;
 	height: 100vh;
 	width: 100%;
-	background-image: linear-gradient(to right top, #000000, #532623, #975420, #bb9900, #a8eb12);
+	/* background-image: linear-gradient(to right top, #000000, #532623, #975420, #bb9900, #a8eb12); */
+	background-image:linear-gradient(to right top, #fb8770, #c56132,#cccb72);
 	position: absolute;
 	top: 0;
 	left: 0;
